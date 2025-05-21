@@ -12,4 +12,4 @@ this is the sass settings for json
 variable
 nested
 partial
-function
+function;
