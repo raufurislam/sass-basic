@@ -8,4 +8,8 @@ this is the sass settings for json
 "savePath": "/dist/css"
 }
 ]
-# sass-basic
+
+variable
+nested
+partial
+function

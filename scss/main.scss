@@ -1,12 +1,27 @@
-$primary-color: #272727;
-$accent-color: #ff652f;
-$text-color: #fff;
-$font-weights: (
-  "regular": 400,
-  "medium": 500,
-  "bold": 700,
-);
+// main.scss
+@import "./resets";
+@import "./variables";
+
+@function weight($weight-name) {
+  @return map-get($font-weights, $weight-name);
+}
 
 body {
   background: $primary-color;
+  color: $text-color;
+}
+
+.main {
+  width: 80%;
+  margin: 0 auto;
+
+  #{&}__paragraph {
+    // font-weight: map-get($font-weights, bold);
+    font-weight: weight(regular);
+    text-align: center;
+
+    &:hover {
+      color: pink;
+    }
+  }
 }
