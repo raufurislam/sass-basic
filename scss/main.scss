@@ -33,7 +33,8 @@ body {
 
 .main {
   @include flexCenter(row);
-  width: 80%;
+  // width: 80%-40%;
+  width: calc(80%-800px);
   margin: 0 auto;
 
   #{&}__paragraph1 {
@@ -50,7 +51,7 @@ body {
     @extend .main__paragraph2;
 
     &:hover {
-      color: accent-color;
+      color: $accent-color;
     }
   }
 

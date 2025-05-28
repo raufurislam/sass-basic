@@ -14,7 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  width: 80%;
+  width: 40%;
   margin: 0 auto;
 }
 .main .main__paragraph1 {
@@ -25,7 +25,7 @@ body {
   color: pink;
 }
 .main .main__paragraph2:hover {
-  color: accent-color;
+  color: #ff652f;
 }
 @media (max-width: 800px) {
   .main {

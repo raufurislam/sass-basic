@@ -14,3 +14,5 @@ nested
 partial
 function;
 mixin
+extend
+operation
