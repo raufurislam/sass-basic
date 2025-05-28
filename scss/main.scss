@@ -36,13 +36,21 @@ body {
   width: 80%;
   margin: 0 auto;
 
-  #{&}__paragraph {
+  #{&}__paragraph1 {
     // font-weight: map-get($font-weights, bold);
     font-weight: weight(regular);
     text-align: center;
 
     &:hover {
       color: pink;
+    }
+  }
+
+  #{&}__paragraph2 {
+    @extend .main__paragraph2;
+
+    &:hover {
+      color: accent-color;
     }
   }
 

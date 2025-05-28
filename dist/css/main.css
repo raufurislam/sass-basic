@@ -17,12 +17,15 @@ body {
   width: 80%;
   margin: 0 auto;
 }
-.main .main__paragraph {
+.main .main__paragraph1 {
   font-weight: 400;
   text-align: center;
 }
-.main .main__paragraph:hover {
+.main .main__paragraph1:hover {
   color: pink;
+}
+.main .main__paragraph2:hover {
+  color: accent-color;
 }
 @media (max-width: 800px) {
   .main {
